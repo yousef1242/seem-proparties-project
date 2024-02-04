@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- set description -->
+    <meta name="description" content="seem properties home page">
+    <!-- link logo for website -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- link tailwind file -->
+    <link rel="stylesheet" href="./css/output.css" />
+    <!-- link fontawesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- link fontawesome icons -->
+    <link rel="stylesheet" href="./css/all.css" />
+    <!-- link aos scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- website title -->
+    <title>Seem Properties</title>
+  </head>
+  <body>
+    <main class="overflow-hidden">
+      <!-- main navbar -->
+      <nav class="nav h-[100px] bg-white fixed w-full left-0 top-0 z-[9999]">
+        <div class="container mx-auto p-2 flex items-center justify-between">
+          <div class="child logo">
+            <a
+              href="#"
+              class="block text-2xl font-bold md:text-4xl text-slate-900"
+              ><img
+                loading="lazy"
+                class="h-[100px] w-[100px] object-contain"
+                src="./images/logo.png"
+                alt="seem properties logo"
+            /></a>
+          </div>
+          <div class="child nav-links hidden md:block">
+            <ul class="flex items-center space-x-5">
+              <li
+                class="text-slate-700 font-semibold transition hover:text-[#a77b3e]"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="text-slate-700 font-semibold transition hover:text-[#a77b3e]"
+              >
+                <a href="#about-us">About Us</a>
+              </li>
+              <li
+                class="text-slate-700 font-semibold transition hover:text-[#a77b3e]"
+              >
+                <a href="#projects">Projects</a>
+              </li>
+              <li
+                class="text-slate-700 font-semibold transition hover:text-[#a77b3e]"
+              >
+                <a href="#partners">Our Partners</a>
+              </li>
+            </ul>
+          </div>
+          <div class="bar-icon block text-2xl md:hidden">
+            <i
+              onclick="changeIconAndOpenNavLinks(true)"
+              class="fa-solid fa-bars p-2 cursor-pointer"
+            ></i>
+          </div>
+        </div>
+      </nav>
+      <!-- home section -->
+      <section
+        class="home mt-[100px] bg-[url(../images/home-bg-image.jpg)] bg-center bg-no-repeat h-[500px] bg-cover relative"
+      >
+        <div class="container h-full mx-auto px-2">
+          <div
+            class="overlay w-full h-full bg-black/65 absolute left-0 top-0"
+          ></div>
+          <section
+            class="home-content h-full w-full flex items-center justify-center z-[9] relative flex-col text-center"
+          >
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              class="font-bold mb-8 text-4xl text-white"
+            >
+              Seem Properties
+            </h1>
+            <p
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              class="text-white mb-12"
+            >
+              Dubai realty hub: Off-Plan,Ready,Lease-Your Gateway to prime
+              Investments
+            </p>
+            <a
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              href="#projects"
+              class="text-white bg-[#a77b3e] rounded-md p-2"
+              >Our projects</a
+            >
+          </section>
+        </div>
+      </section>
+      <!-- about us section -->
+      <section class="about-us mt-10" id="about-us">
+        <div class="container h-full mx-auto px-2">
+          <section class="about-us-content h-full">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              class="text-4xl text-slate-900 text-center font-bold flex justify-center relative before:bg-[#a77b3e] before:rounded-lg before:h-[4px] before:w-[50px] before:absolute before:bottom-[-18px]"
+            >
+              About Us
+            </h1>
+            <div
+              class="flex items-center mt-20 flex-col space-y-5 md:space-y-0 md:flex-row md:space-x-5"
+            >
+              <div
+                class="child w-full md:w-6/12"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <h3 class="text-2xl font-semibold text-slate-800 mb-5">
+                  Who are we?
+                </h3>
+                <p class="leading-9 text-slate-700">
+                  Welcome to Seem Properties Dubai's premier real estate
+                  brokerage with over 15 years of unparalleled expertise. Our
+                  seasoned team is dedicated to redefining your real estate
+                  experience through personalized service and innovative
+                  solutions. From residential gems to lucrative investments, we
+                  navigate the market intricacies with precision. At Seem
+                  properties excellence is not just a standard it's our
+                  commitment. Join us in discovering a world of possibilities
+                  where your real estate aspirations meet success. Welcome to a
+                  new era in Dubai real estate with Seem Properties.
+                </p>
+              </div>
+              <div
+                class="child w-full md:w-6/12"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
+                <img
+                  class="w-full h-auto"
+                  src="./images/about-us-image.jpg"
+                  loading="lazy"
+                  alt="about-us"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- projects section -->
+      <section class="projects mt-10" id="projects">
+        <div class="container mx-auto h-full px-2">
+          <section class="projects-content h-full">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              class="text-4xl text-slate-900 text-center font-bold flex justify-center relative before:bg-[#a77b3e] before:rounded-lg before:h-[4px] before:w-[50px] before:absolute before:bottom-[-18px]"
+            >
+              Projects
+            </h1>
+            <div
+              class="projects-cards flex flex-wrap items-center flex-row mt-20"
+            ></div>
+          </section>
+        </div>
+      </section>
+      <!-- our trusted partners section -->
+      <section class="our-trusted-partners mt-10" id="partners">
+        <div class="container h-full mx-auto px-2">
+          <section class="our-trusted-partners-content h-full w-full">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              class="text-4xl text-slate-900 text-center font-bold flex justify-center relative before:bg-[#a77b3e] before:rounded-lg before:h-[4px] before:w-[50px] before:absolute before:bottom-[-18px]"
+            >
+              Our Trusted Partners
+            </h1>
+            <div
+              class="partners-cards flex flex-row flex-wrap items-center space-y-7 mt-20"
+            ></div>
+          </section>
+        </div>
+      </section>
+      <!-- footer section -->
+      <section class="footer bg-[#071c33] mt-10 py-10">
+        <div class="container h-full mx-auto px-2">
+          <section class="footer-content text-white h-full">
+            <div
+              class="flex items-start justify-between flex-row flex-wrap space-y-5 lg:space-y-0"
+            >
+              <div class="child w-full sm:w-6/12 lg:w-3/12">
+                <img
+                  src="./images/logo.png"
+                  class="h-[200px]"
+                  loading="lazy"
+                  alt="seem properties logo"
+                />
+              </div>
+              <div class="child w-full sm:w-6/12 lg:w-3/12">
+                <h4 class="text-2xl text-white font-bold mb-5">Company</h4>
+                <div class="company-links-content">
+                  <ul class="flex flex-col items-start space-y-5">
+                    <li class="transition inline-block hover:text-[#a77b3e]">
+                      <a href="#">Home</a>
+                    </li>
+                    <li class="transition inline-block hover:text-[#a77b3e]">
+                      <a href="#about-us">About Us</a>
+                    </li>
+                    <li class="transition inline-block hover:text-[#a77b3e]">
+                      <a href="#projects">Projects</a>
+                    </li>
+                    <li class="transition inline-block hover:text-[#a77b3e]">
+                      <a href="#partners">Our Partners</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="child w-full lg:w-3/12">
+                <h4 class="text-2xl text-white font-bold mb-5">Contact Info</h4>
+                <div class="contact-info-content">
+                  <div class="email mb-3">
+                    <h5 class="text-1xl mb-3 font-bold">Email :</h5>
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-envelope text-[#a77b3e]"></i>
+                      <p>Info@seemproperties.com</p>
+                    </div>
+                  </div>
+                  <div class="number mb-5">
+                    <h5 class="text-1xl mb-3 font-bold">Phone number :</h5>
+                    <div class="flex items-center space-x-2">
+                      <i class="fa-solid fa-phone text-[#a77b3e]"></i>
+                      <p>00971557779107</p>
+                    </div>
+                  </div>
+                  <div class="social-medio flex items-center space-x-2">
+                    <a
+                      class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
+                      href="https://www.facebook.com/profile.php?id=100064088228106&mibextid=PtKPJ9"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
+                      href="https://www.instagram.com/saad_gaballah?igsh=czhhdWczamphMnVy&utm_source=qr"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                    <a
+                      class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
+                      href="https://www.tiktok.com/@saadgaballah0?_t=8jKLxhXP8yo&_r=1"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- single project model -->
+      <section
+        class="single-project-model hidden fixed bg-black/45 top-0 left-0 w-full h-[100vh] z-[99999]"
+      ></section>
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Website script -->
+    <script src="./js/main.js"></script>
+    <!-- Aos animation script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
