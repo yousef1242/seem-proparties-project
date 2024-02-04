@@ -193,7 +193,7 @@ function openSingleProjectModel(project) {
                    <div class="swiper-slide">
                      <img loading="lazy" width="500" hight="240" src="${image}" alt="Seem Properties ${
                        parsedProject.title
-                     } image ${index + 1}" >
+                     } image ${index + 1}" />
                    </div>`
                    )
                    .join("")}
