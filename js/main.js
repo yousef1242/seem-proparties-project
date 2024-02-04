@@ -7,29 +7,29 @@ const projectModel = document.querySelector(".single-project-model");
 
 // partners data
 const partnersData = [
-  "./images/partners (1).jpg",
-  "./images/partners (2).jpg",
-  "./images/partners (3).jpg",
-  "./images/partners (4).jpg",
-  "./images/partners (5).jpg",
-  "./images/partners (6).jpg",
-  "./images/partners (7).jpg",
-  "./images/partners (8).jpg",
-  "./images/partners (9).jpg",
-  "./images/partners (10).jpg",
-  "./images/partners (11).jpg",
-  "./images/partners (12).jpg",
-  "./images/partners (13).jpg",
-  "./images/partners (14).jpg",
-  "./images/partners (15).jpg",
-  "./images/partners (16).jpg",
-  "./images/partners (17).jpg",
-  "./images/partners (18).jpg",
-  "./images/partners (19).jpg",
-  "./images/partners (20).jpg",
-  "./images/partners (21).jpg",
-  "./images/partners (22).jpg",
-  "./images/partners (23).jpg",
+  "./images/partners (1).webp",
+  "./images/partners (2).webp",
+  "./images/partners (3).webp",
+  "./images/partners (4).webp",
+  "./images/partners (5).webp",
+  "./images/partners (6).webp",
+  "./images/partners (7).webp",
+  "./images/partners (8).webp",
+  "./images/partners (9).webp",
+  "./images/partners (10).webp",
+  "./images/partners (11).webp",
+  "./images/partners (12).webp",
+  "./images/partners (13).webp",
+  "./images/partners (14).webp",
+  "./images/partners (15).webp",
+  "./images/partners (16).webp",
+  "./images/partners (17).webp",
+  "./images/partners (18).webp",
+  "./images/partners (19).webp",
+  "./images/partners (20).webp",
+  "./images/partners (21).webp",
+  "./images/partners (22).webp",
+  "./images/partners (23).webp",
 ];
 
 // set partners images
@@ -41,7 +41,7 @@ partnersData.map(
             data-aos-duration="1500"
             class="child p-2 w-6/12 md:w-4/12 lg:w-3/12">
           <div class="w-full flex justify-center">
-            <img loading="lazy" src="${partner}" alt="Seem Properties trusted partner"/>
+            <img loading="lazy" src="${partner}" alt="Seem Properties trusted partner">
             </div>
           </div>`)
 );
@@ -53,45 +53,45 @@ const projectsData = [
     title: "DAMAC Lagoons",
     desc: "Close to the charm of DAMAC Hills and yet hidden away from the bustle is DAMAC Lagoons - a new master community in Dubai, inspired by the Mediterranean.At DAMAC Lagoons, the most elegant villas and townhouses are surrounded by azure blue lagoons, white sandy beaches, tropical island vibes and other enchanting experiences, across 45 million square feet.",
     files: [
-      "./images/project 1 (1).jpg",
-      "./images/project 1 (2).jpg",
-      "./images/project 1 (3).jpg",
+      "./images/project 1 (1).webp",
+      "./images/project 1 (2).webp",
+      "./images/project 1 (3).webp",
     ],
   },
   {
     projectNumber: 2,
     title: "AEON AT DUBAI CREEKHARBOUR",
     desc: "Visualize the dawn breaking over Dubai's iconic skyline, with the raw essence of urban aesthetics merging seamlessly with the embrace of nature. Anchored in the trendsetting Creek Beach, AEON epitomizes a bold urban statement, gracefully intertwining with the waterfront's soothing ambience and the vibrant beat of Dubai's heart. For the modern trailblazer, AEON is a manifestation of avant-garde luxury, convenience, and urban flair.Step into AEON...",
-    files: ["./images/project 2 (1).jpg", "./images/project 2 (2).jpg"],
+    files: ["./images/project 2 (1).webp", "./images/project 2 (2).webp"],
   },
   {
     projectNumber: 3,
     title: "The Valley",
     desc: "A quaint new town where life finds its inspiration amidst the vast shimmering sands and lush green open spaces.Welcome to The Valley - the perfect place for you to empower your dreams and become theinnovators and visionaries that will lead the future of the world.",
     files: [
-      "./images/project 3 (1).jpg",
-      "./images/project 3 (2).jpg",
-      "./images/project 3 (3).jpg",
-      "./images/project 3 (4).jpg",
-      "./images/project 3 (5).jpg",
-      "./images/project 3 (6).jpg",
+      "./images/project 3 (1).webp",
+      "./images/project 3 (2).webp",
+      "./images/project 3 (3).webp",
+      "./images/project 3 (4).webp",
+      "./images/project 3 (5).webp",
+      "./images/project 3 (6).webp",
     ],
   },
   {
     projectNumber: 4,
     title: "CLUB DRIVE AT DUBAI HILLS ESTATE",
     desc: "Park Gate is Dubai Hills Estate's final villa community, offering a harmonious blend of modern luxury and serene nature. This bespoke development, crafted with the utmost attention to detail, promises a lifestyle that transcends the ordinary, positioning itself as a sought-after destination for discerning individuals. Club drive is your personal haven that encapsulates natural beauty and luxurious amenities, boasting an ideal location at the golf course with pristine views of the golf.",
-    files: ["./images/project 4 (1).jpg", "./images/project 4 (2).jpg"],
+    files: ["./images/project 4 (1).webp", "./images/project 4 (2).webp"],
   },
   {
     projectNumber: 5,
     title: "BAYVIEW BY ADDRESS RESORTS AT EMAAR BEACHFRONT",
     desc: "Ethereal waves adorn stylishly crafted façades reflecting the Arabian Gulf's rippling waters.A luxury vocabulary inspired by the splendour and glamour of Dubai, translated in the smallest details, inside and out.Exquisite facilities inspired by Emaar’s mastery of fine living in branded apartments and penthouses, luxuriously furnished and tailored to your needs.Bayview by Address Resort at Emaar Beachfront carries the future in its details and promises a life that will fulfil your dreams of luxurious living by the sea and unparalleled modern opulence; a one-of-a-kind opportunity to celebrate the Dubai Life in the city's most exclusive coastal development.",
     files: [
-      "./images/project 5 (1).jpg",
-      "./images/project 5 (2).jpg",
-      "./images/project 5 (3).jpg",
-      "./images/project 5 (4).jpg",
+      "./images/project 5 (1).webp",
+      "./images/project 5 (2).webp",
+      "./images/project 5 (3).webp",
+      "./images/project 5 (4).webp",
     ],
   },
 ];
@@ -191,9 +191,9 @@ function openSingleProjectModel(project) {
                    .map(
                      (image, index) => `
                    <div class="swiper-slide">
-                     <img loading="lazy" class="w-full h-[240px]" src="${image}" alt="Seem Properties ${
+                     <img loading="lazy" width="500" hight="240" src="${image}" alt="Seem Properties ${
                        parsedProject.title
-                     } image ${index + 1}" />
+                     } image ${index + 1}" >
                    </div>`
                    )
                    .join("")}
