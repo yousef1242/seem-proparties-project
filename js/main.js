@@ -191,7 +191,7 @@ function openSingleProjectModel(project) {
                    .map(
                      (image, index) => `
                    <div class="swiper-slide">
-                     <img loading="lazy" width="500" hight="240" src="${image}" alt="Seem Properties ${
+                     <img loading="lazy" class="w-full h-[240px]" src="${image}" alt="Seem Properties ${
                        parsedProject.title
                      } image ${index + 1}" />
                    </div>`
