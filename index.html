@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./css/all.min.css" />
     <!-- link fontawesome icons -->
     <link rel="stylesheet" href="./css/all.css" />
-    <!-- link aos scroll animation
-    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" /> -->
+    <!-- link aos scroll animation -->
+    <link rel="stylesheet" href="./vendor/aos/dist/aos.css" />
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css" />
     <!-- website title -->
@@ -22,8 +22,22 @@
   </head>
   <body>
     <main class="overflow-hidden">
+      <!-- contact info navbar -->
+      <nav
+        class="fixed top-0 h-[50px] z-[99999] py-2 bg-[#071c33] w-full flex justify-center"
+      >
+        <a
+          target="_blank"
+          class="chat-us-link py-1 px-2 text-white rounded-md bg-[#a77b3e]"
+          href="https://wa.me/+971557779107"
+          aria-label="Whats App"
+          >Whats App</a
+        >
+      </nav>
       <!-- main navbar -->
-      <nav class="nav h-[100px] bg-white fixed w-full left-0 top-0 z-[9999]">
+      <nav
+        class="nav h-[100px] bg-white fixed w-full left-0 top-[50px] z-[9999]"
+      >
         <div class="container mx-auto p-2 flex items-center justify-between">
           <div class="child logo">
             <a
@@ -72,7 +86,7 @@
       <!-- home section -->
       <section
         loading="lazy"
-        class="home mt-[100px] bg-[url(../images/home-bg-image.webp)] bg-center bg-no-repeat h-[500px] bg-cover relative"
+        class="home mt-[150px] bg-[url(../images/home-bg-image.webp)] bg-center bg-no-repeat h-[500px] bg-cover relative"
       >
         <div class="container h-full mx-auto px-3">
           <div
@@ -245,22 +259,32 @@
                   </div>
                   <div class="social-medio flex items-center space-x-2">
                     <a
+                      target="_blank"
                       aria-label="https://www.facebook.com/profile.php?id=100064088228106&mibextid=PtKPJ9"
                       class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
                       href="https://www.facebook.com/profile.php?id=100064088228106&mibextid=PtKPJ9"
                       ><i class="fa-brands fa-facebook-f"></i
                     ></a>
                     <a
+                      target="_blank"
                       aria-label="https://www.instagram.com/saad_gaballah?igsh=czhhdWczamphMnVy&utm_source=qr"
                       class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
                       href="https://www.instagram.com/saad_gaballah?igsh=czhhdWczamphMnVy&utm_source=qr"
                       ><i class="fa-brands fa-instagram"></i
                     ></a>
                     <a
+                      target="_blank"
                       aria-label="https://www.tiktok.com/@saadgaballah0?_t=8jKLxhXP8yo&_r=1"
                       class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
                       href="https://www.tiktok.com/@saadgaballah0?_t=8jKLxhXP8yo&_r=1"
                       ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                    <a
+                      target="_blank"
+                      aria-label="https://www.tiktok.com/@saadgaballah0?_t=8jKLxhXP8yo&_r=1"
+                      class="bg-[#a77b3e] h-[30px] w-[30px] rounded-full flex items-center justify-center hover:opacity-[.9]"
+                      href="https://wa.me/+971557779107"
+                      ><i class="fa-brands fa-whatsapp"></i
                     ></a>
                   </div>
                 </div>
@@ -276,9 +300,12 @@
     </main>
     <!-- Swiper JS -->
     <script src="./vendor/swiper/swiper-bundle.min.js"></script>
-    <!-- Aos animation script -->
-    <script type="module" src="./js/aos.js"></script>
     <!-- Website script -->
     <script src="./js/main.js"></script>
+    <!-- Aos script -->
+    <script src="./vendor/aos/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

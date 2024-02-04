@@ -244,7 +244,7 @@ function changeIconAndOpenNavLinks(isOpen) {
     navLinks.classList.add(
       "block",
       "fixed",
-      "top-[100px]",
+      "top-[150px]",
       "w-full",
       "left-0",
       "bg-white",
