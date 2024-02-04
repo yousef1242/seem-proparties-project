@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="./css/all.min.css" />
     <!-- link fontawesome icons -->
     <link rel="stylesheet" href="./css/all.css" />
-    <!-- link aos scroll animation -->
-    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <!-- link aos scroll animation
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" /> -->
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css" />
     <!-- website title -->
     <title>Seem Properties</title>
   </head>
@@ -71,7 +71,7 @@
       </nav>
       <!-- home section -->
       <section
-      loading="lazy"
+        loading="lazy"
         class="home mt-[100px] bg-[url(../images/home-bg-image.webp)] bg-center bg-no-repeat h-[500px] bg-cover relative"
       >
         <div class="container h-full mx-auto px-3">
@@ -275,13 +275,10 @@
       ></section>
     </main>
     <!-- Swiper JS -->
-    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Aos animation script -->
+    <script type="module" src="./js/aos.js"></script>
     <!-- Website script -->
     <script src="./js/main.js"></script>
-    <!-- Aos animation script -->
-    <script src="./node_modules/aos/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
